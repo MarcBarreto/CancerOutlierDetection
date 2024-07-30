@@ -38,14 +38,14 @@ To run this project, you need to have Julia installed along with the required pa
 3. **Install Required Packages**:
   Open Julia and install the required packages:
     ```bash
-    - using Pkg
-    - Pkg.add("IJulia")
-    - Pkg.add("CSV")
-    - Pkg.add("DataFrames")
-    - Pkg.add("Clustering")
-    - Pkg.add("Distances")
-    - Pkg.add("Statistics")
-    - Pkg.add("ScikitLearn")
+    -using Pkg
+    -Pkg.add("IJulia")
+    -Pkg.add("CSV")
+    -Pkg.add("DataFrames")
+    -Pkg.add("Clustering")
+    -Pkg.add("Distances")
+    -Pkg.add("Statistics")
+    -Pkg.add("ScikitLearn")
     ```
 
 ## Usage
@@ -62,20 +62,20 @@ To use the outlier detection model, follow these steps:
 2. **Run the Notebook**:
 
   Execute the cells in the main.ipynb notebook sequentially. The notebook includes the following steps:
-    - Data loading
-    - Data preprocessing
-    - Model creation (KMeans)
-    - Model evaluation
+    -Data loading
+    -Data preprocessing
+    -Model creation (KMeans)
+    -Model evaluation
 
 ## Data
-  -- File: dataset.csv
-  -- Location: data folder
-  -- The dataset contains medical consultation data used for detecting outliers.
+  --File: dataset.csv
+  --Location: data folder
+  --The dataset contains medical consultation data used for detecting outliers.
 
 ## Model
   **KMeans Clustering**
-  -- Algorithm: KMeans
-  -- The KMeans algorithm is used to cluster the data and detect outliers.
+  --Algorithm: KMeans
+  --The KMeans algorithm is used to cluster the data and detect outliers.
 
 ## Evaluation
 The notebook includes sections for evaluating the KMeans model, where various metrics and visualizations are used to assess the performance of the outlier detection.
